@@ -1,0 +1,47 @@
+#container{
+margin: auto;
+position: relative;
+top: 150px;
+
+
+}
+
+body{
+
+background-color: aqua;
+
+}
+
+
+.newDiv {
+
+border: 1px inset gray;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-image: url(blue.png)
+
+
+
+
+
+}
+ul {
+list-style-type: none;
+font-size: 30px;
+display: inline;
+position: relative;
+left: 1500px;
+}
+a{
+color: black; 
+}
+
+a:hover{
+text-decoration: underline;
+}
+div:not(#container){
+    
+}
