@@ -1,4 +1,7 @@
 const container = document.querySelector("#container")
+black = true;
+
+
 
 
 
@@ -24,6 +27,31 @@ container.style.width = "800px";
 container.style.border ="0.2em inset black";
 container.style.border = "inset";
 
+const tiles = document.getElementsByClassName("newDiv")
+
+function tileBlack(){
+    if(black){
+        for(tile of tiles){
+            tile.addEventListener("mouseover",function(event){
+            event.target.style.backgroundColor = "black";})
+}
+}
 
 
 
+
+
+
+}
+tileBlack()
+
+function tileClear(){
+    for(tile of tiles){
+    const button = document.querySelector("#clear");
+    button.addEventListener('click', event => {
+    tile.style.backgroundColor = "white";
+    })
+    }}
+    
+    
+    tileClear();
